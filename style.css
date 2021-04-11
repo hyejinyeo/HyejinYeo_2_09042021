@@ -7,6 +7,15 @@ body
 
 /*Header*/
 /*Navigation*/
+nav ul
+{
+    list-style: none;
+}
+nav a:link
+{
+    color: black;
+    text-decoration: none;
+}
 /*Section 1*/
 /*Section 2.1*/
 /*Section 2.2*/
