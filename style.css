@@ -6,16 +6,15 @@ body
 }
 
 /*Header*/
+.logo
+{
+    padding: 20px;
+}
 /*Navigation*/
 nav ul
 {
     list-style: none;
     }
-nav a:link
-{
-    color: black;
-    text-decoration: none;
-}
 li
 {
     float: left;
@@ -25,6 +24,12 @@ nav a
     display: block;
     padding: 8px;
     background-color: white;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover
+{
+    color: blue;
 }
 /*Section 1*/
 /*Section 2.1*/
