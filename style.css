@@ -3,6 +3,7 @@ body
 {
     background-color: white;
     font-family: 'Raleway', sans-serif;
+    margin: 0px;
 }
 
 /*Header*/
@@ -36,6 +37,10 @@ nav a:hover
 /*Section 2.2*/
 /*Section 3*/
 /*Footer*/
+footer
+{
+    background-color: #F2F2F2;
+}
 footer h1
 {
     font-size: 20px;
