@@ -5,7 +5,10 @@ body
     font-family: 'Raleway', sans-serif;
     margin: 0px;
 }
-
+a:visited
+{
+    color: black;
+}
 /*Header*/
 .logo
 {
