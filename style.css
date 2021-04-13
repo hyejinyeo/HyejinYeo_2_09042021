@@ -149,6 +149,7 @@ nav li a:hover
 .details
 {
     font-size: small;
+    line-height: 10px;
 }
 /*Section 2.2*/
 .aside
