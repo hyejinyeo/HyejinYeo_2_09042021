@@ -93,15 +93,16 @@ nav li a:hover
     transition: box-shadow 0.4s;
     text-decoration: none;
 }
-
 .hebergements_element img 
 {
-    height: 115px;
-    width: 100%;
     object-fit: cover;
     padding: 5px 5px 0 5px;
     border-top-left-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.details
+{
+    font-size: small;
 }
 /*Section 2.2*/
 .aside
