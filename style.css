@@ -44,12 +44,12 @@ nav a
 }
 nav li a:hover
 {
-    color: #0065fc;
-    border-top: #0065fc 1px solid; 
+    color: #0065FC;
+    border-top: #0065FC 1px solid; 
 }
 .inscription
 {
-    font: #0065fc;
+    color: #0065FC;
     font-weight: bold;
 }
 /*Section 1*/
@@ -80,7 +80,7 @@ nav li a:hover
     color: white;
     font-size: large;
     font-weight: bold;
-    background-color: #0065fc;
+    background-color: #0065FC;
     border: none;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -93,7 +93,7 @@ nav li a:hover
 }
 .icon_filtres
 {
-    color: #0065fc;
+    color: #0065FC;
     background-color: #deebff;
     height: 50px;
     width: 50px;
@@ -104,7 +104,7 @@ nav li a:hover
 }
 .icon_info
 {
-    color: #0065fc;
+    color: #0065FC;
     background-color: white;
     height: 50px;
     width: 50px;
@@ -123,8 +123,6 @@ nav li a:hover
     flex-wrap: wrap;
     justify-content: space-around;
   }
-.hebergements_element
-{}
 .carte
 {
     width: 210px;
