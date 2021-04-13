@@ -79,9 +79,10 @@ nav li a:hover
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    margin-right: 10px;
   }
 .hebergements_element
+{}
+.carte
 {
     width: 210px;
     height: 200px;
@@ -95,6 +96,8 @@ nav li a:hover
 }
 .hebergements_element img 
 {
+    height: 115px;
+    width: 100%;
     object-fit: cover;
     padding: 5px 5px 0 5px;
     border-top-left-radius: 15px;
