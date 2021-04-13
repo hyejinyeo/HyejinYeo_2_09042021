@@ -85,6 +85,35 @@ nav li a:hover
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+.filtres
+{
+    font-size: 12pt;
+    font-weight: bold;
+    height: 50px;
+}
+.icon_filtres
+{
+    color: #0065fc;
+    background-color: #deebff;
+    height: 50px;
+    width: 50px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 50%;
+}
+.icon_info
+{
+    color: #0065fc;
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 50%; 
+    border: #f2f2f2 solid 1px;
+}
 /*Section 2.1*/
 .hebergements_container
 {
