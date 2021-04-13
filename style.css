@@ -53,23 +53,37 @@ nav li a:hover
     font-weight: bold;
 }
 /*Section 1*/
+.icon_gps
+{
+    background-color: #F2F2F2;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.1em;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
 #recherche > form > input
 {
-    font-size:large;
+    font-size:18px;
     font-weight: bold;
     width: 250px;
-    height: 40px;  
+    height: 50px;
+    padding: 10px;
+    border: 1px solid #F2F2F2;  
 }
 #recherche > form > button
 {
     width: 150px;
-    height: 40px;
+    height: 50px;
     color: white;
     font-size: large;
     font-weight: bold;
-    background-color: blue;
+    background-color: #0065fc;
     border: none;
-    border-radius: 5px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 /*Section 2.1*/
 .hebergements_container
