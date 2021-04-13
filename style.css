@@ -76,10 +76,32 @@ nav li a:hover
 {
     background-color: #F2F2F2;
     border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-right: 10px;
   }
 .hebergements_element
 {
-    width: 300px;
+    width: 210px;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 6px 3px #d8d7d7;
+    transition: box-shadow 0.4s;
+    text-decoration: none;
+}
+
+.hebergements_element img 
+{
+    height: 115px;
+    width: 100%;
+    object-fit: cover;
+    padding: 5px 5px 0 5px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 /*Section 2.2*/
 .aside
