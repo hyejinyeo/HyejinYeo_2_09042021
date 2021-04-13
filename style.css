@@ -40,9 +40,15 @@ nav a
     display: block;
     padding: 8px;
 }
-nav a:hover
+nav li a:hover
 {
     color: blue;
+    border-top: blue;
+}
+nav > .inscription
+{
+    font: blue; 
+    font-weight: bold;
 }
 /*Section 1*/
 #recherche > form > input
