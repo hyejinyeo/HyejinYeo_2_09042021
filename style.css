@@ -72,12 +72,12 @@ nav li a:hover
     border-radius: 5px;
 }
 /*Section 2.1*/
-.logement_container
+.hebergements_container
 {
     background-color: #F2F2F2;
     border-radius: 15px;
   }
-.logement_element
+.hebergements_element
 {
     width: 300px;
 }
