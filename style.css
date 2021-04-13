@@ -2,7 +2,8 @@
 body
 {
     background-color: white;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
+    overflow-x: hidden;
     margin: 0px;
     color: black;
 }
@@ -30,6 +31,7 @@ header, main
 nav ul
 {
     list-style: none;
+     
     }
 nav li
 {
@@ -38,16 +40,16 @@ nav li
 nav a
 {
     display: block;
-    padding: 8px;
+    padding: 60px 20px 0px 20px;
 }
 nav li a:hover
 {
-    color: blue;
-    border-top: blue;
+    color: #0065fc;
+    border-top: #0065fc 1px solid; 
 }
-nav > .inscription
+.inscription
 {
-    font: blue; 
+    font: #0065fc;
     font-weight: bold;
 }
 /*Section 1*/
