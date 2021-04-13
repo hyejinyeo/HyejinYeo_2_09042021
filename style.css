@@ -39,6 +39,24 @@ nav a:hover
     color: blue;
 }
 /*Section 1*/
+#recherche > form > input
+{
+    font-size:large;
+    font-weight: bold;
+    width: 250px;
+    height: 40px;  
+}
+#recherche > form > button
+{
+    width: 150px;
+    height: 40px;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+}
 /*Section 2.1*/
 /*Section 2.2*/
 /*Section 3*/
