@@ -237,11 +237,11 @@ footer a:link
 {
     #recherche > form > input
     {
-        width: 40%;
+        width: 50%;
     }
     #recherche > form > button
     {
-    width: 50px;
+        width: 50px;
     }
     .button_text
     {
@@ -261,11 +261,11 @@ footer a:link
 {
     #recherche > form > input
     {
-        width: 40%;
+        width: 50%;
     }
     #recherche > form > button
     {
-    width: 50px;
+        width: 50px;
     }
     .button_text
     {
