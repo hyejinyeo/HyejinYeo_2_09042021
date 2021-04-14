@@ -33,8 +33,11 @@ nav
 }
 .logo
 {
-    padding: 0 0 0 0;
     display: flex;
+}
+.logo > a
+{
+    padding: 60px 0 0 0;
 }
 .nav_list
 {
