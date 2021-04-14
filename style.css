@@ -99,6 +99,7 @@ nav > .inscription > a
 {
     font-size: 1em;
     font-weight: bold;
+    line-height: 52px; /*Vertical align: center*/
     width: 250px;
     height: 52px;
     border-radius: 30px;
@@ -106,25 +107,30 @@ nav > .inscription > a
     background-color: white;
     float: left;
 }
+.filtres:hover
+{
+    background-color: #DEEBFF;
+}
 .filtres > a:hover
 {
     color: #0065FC;
 }
-.info_message
-{
-    clear: both;
-}
 .icon_filtres
 {
     color: #0065FC;
-    background-color: #deebff;
+    background-color: #DEEBFF;
     height: 50px;
     width: 50px;
     line-height: 45px;
     text-align: center;
     font-size: 1.1em;
     border-radius: 50%;
+    margin-right: 10px;
     float: left;
+}
+.info_message
+{
+    clear: both;
 }
 .icon_info
 {
