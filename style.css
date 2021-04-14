@@ -93,6 +93,10 @@ nav > .inscription > a
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+.icon_search
+{
+    display: none;
+}
 /*Section 1 : Filtres*/
 #recherche h2
 {
@@ -231,6 +235,22 @@ footer a:link
     {
         width: 40%;
     }
+    #recherche > form > button
+    {
+    width: 50px;
+    }
+    .button_text
+    {
+        display:none;
+    }
+    .icon_search
+    {
+        display:table-cell;
+        line-height: 50px;
+        text-align: center;
+        font-size: 1.1em;
+        padding-left: 0.4em;
+    }
 }
 
 @media screen and (max-width: 767px)
@@ -238,5 +258,21 @@ footer a:link
     #recherche > form > input
     {
         width: 40%;
+    }
+    #recherche > form > button
+    {
+    width: 50px;
+    }
+    .button_text
+    {
+        display:none;
+    }
+    .icon_search
+    {
+        display:table-cell;
+        line-height: 50px;
+        text-align: center;
+        font-size: 1.1em;
+        padding-left: 0.4em;
     }
 }
