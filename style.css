@@ -228,3 +228,18 @@ footer a:link
     text-decoration: none;
 }
 /*Responsive Design with media queries*/
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+    #recherche > form > input
+    {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 767px)
+{
+    #recherche > form > input
+    {
+        width: 40%;
+    }
+}
