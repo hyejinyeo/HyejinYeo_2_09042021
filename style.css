@@ -47,7 +47,7 @@ nav li a:hover
     color: #0065FC;
     border-top: #0065FC 2px solid; 
 }
-nav > .inscription
+nav > .inscription > a
 {
     color: #0065FC;
     font-weight: bold;
@@ -160,8 +160,16 @@ nav > .inscription
 }
 .details
 {
-    font-size: small;
+    font-size: 0.8em;
     line-height: 10px;
+}
+.fas .a-star .full
+{
+    color: #0065FC;
+}
+.fas .fa-star .simple
+{
+    color: gray;
 }
 /*Section 2.2*/
 .aside
