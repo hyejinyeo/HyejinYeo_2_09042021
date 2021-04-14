@@ -201,6 +201,9 @@ nav > .nav_list > .inscription > a
     transition: box-shadow 0.4s;
     text-decoration: none;
 }
+.carte:hover {
+    transform: scale(1.01);
+}
 .hebergements_element img 
 {
     height: 115px;
@@ -248,7 +251,7 @@ footer a:link
     color: black;
     text-decoration: none;
 }
-/*Responsive Design with media queries*/
+/*Responsive Design : Tablette*/
 @media screen and (min-width: 768px) and (max-width: 1023px)
 {
     #recherche > form > input
@@ -272,8 +275,14 @@ footer a:link
         padding-left: 0.4em;
     }
 }
+/*Responsive Design : Telephone Portable*/
 @media screen and (max-width: 767px)
 {
+    /* nav
+    {
+        flex-wrap: wrap-reverse;
+    }
+     */
     #recherche > form > input
     {
         width: 50%;
