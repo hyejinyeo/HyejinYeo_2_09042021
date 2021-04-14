@@ -53,6 +53,14 @@ nav > .inscription > a
     font-weight: bold;
 }
 /*Section 1*/
+.text_bloc
+{
+    margin-bottom: 30px;
+}
+.recherche_bloc
+{
+    margin-bottom: 30px;
+}
 .icon_gps
 {
     background-color: #F2F2F2;
@@ -64,10 +72,6 @@ nav > .inscription > a
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
     float: left;
-}
-.recherche_bloc
-{
-    margin:
 }
 #recherche > form > input
 {
@@ -106,6 +110,8 @@ nav > .inscription > a
     border: 2px solid #D9D9D9;
     background-color: white;
     float: left;
+    margin-left: 20px;
+    margin-bottom: 30px;
 }
 .filtres:hover
 {
@@ -125,7 +131,7 @@ nav > .inscription > a
     text-align: center;
     font-size: 1.1em;
     border-radius: 50%;
-    margin-right: 10px;
+    margin-right: 10px; /*Espace entre icon et text*/
     float: left;
 }
 .info_message
@@ -145,6 +151,10 @@ nav > .inscription > a
     border: #f2f2f2 solid 1px;
     float: left;
     margin-right: 10px;
+}
+.info_message > p
+{
+    line-height: 50px;
 }
 /*Section 2.1*/
 .hebergements_container
