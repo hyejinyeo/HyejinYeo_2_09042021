@@ -52,11 +52,12 @@ nav > .inscription > a
     color: #0065FC;
     font-weight: bold;
 }
-/*Section 1*/
+/*Section 1 : Text Bloc*/
 .text_bloc
 {
     margin-bottom: 30px;
 }
+/*Section 1 : Champ de Recherche */
 .recherche_bloc
 {
     margin-bottom: 30px;
@@ -95,6 +96,7 @@ nav > .inscription > a
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+/*Section 1 : Filtres*/
 #recherche h2
 {
     float: left;
@@ -134,6 +136,7 @@ nav > .inscription > a
     margin-right: 10px; /*Espace entre icon et text*/
     float: left;
 }
+/*Section 1: Info*/
 .info_message
 {
     clear: both;
@@ -156,7 +159,7 @@ nav > .inscription > a
 {
     line-height: 50px;
 }
-/*Section 2.1*/
+/*Section 2.1: Hebergements*/
 .hebergements_container
 {
     background-color: #F2F2F2;
@@ -199,13 +202,13 @@ nav > .inscription > a
 {
     color: gray;
 }
-/*Section 2.2*/
+/*Section 2.2: Les Plus Populaires*/
 .aside
 {
     background-color: #F2F2F2;
     border-radius: 15px;
 }
-/*Section 3*/
+/*Section 3: Activites*/
 /*Footer*/
 footer
 {
