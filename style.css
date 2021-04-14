@@ -18,8 +18,7 @@ a:visited
 }
 header, main
 {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 0px 25px 0 25px; 
     width: auto;
 }
 *:focus
