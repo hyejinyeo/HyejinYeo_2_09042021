@@ -45,9 +45,9 @@ nav a
 nav li a:hover
 {
     color: #0065FC;
-    border-top: #0065FC 1px solid; 
+    border-top: #0065FC 2px solid; 
 }
-.inscription
+nav > .inscription
 {
     color: #0065FC;
     font-weight: bold;
@@ -63,6 +63,7 @@ nav li a:hover
     font-size: 1.1em;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    float: left;
 }
 #recherche > form > input
 {
@@ -72,6 +73,7 @@ nav li a:hover
     height: 50px;
     padding: 10px;
     border: 1px solid #F2F2F2;  
+    float: left;
 }
 #recherche > form > button
 {
@@ -85,11 +87,20 @@ nav li a:hover
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
 }
+#recherche h2
+{
+    float: left;
+}
 .filtres
 {
     font-size: 1em;
     font-weight: bold;
     height: 50px;
+    float: left;
+}
+.info_message
+{
+    clear: both;
 }
 .icon_filtres
 {
@@ -101,6 +112,7 @@ nav li a:hover
     text-align: center;
     font-size: 1.1em;
     border-radius: 50%;
+    float: left;
 }
 .icon_info
 {
@@ -113,6 +125,8 @@ nav li a:hover
     font-size: 1.1em;
     border-radius: 50%; 
     border: #f2f2f2 solid 1px;
+    float: left;
+    margin-right: 10px;
 }
 /*Section 2.1*/
 .hebergements_container
