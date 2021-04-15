@@ -256,6 +256,13 @@ footer a:link
 /*Responsive Design : Tablette*/
 @media screen and (min-width: 768px) and (max-width: 1023px)
 {
+    /*Section 1 : Text Bloc*/
+    .text_bloc
+    {
+        clear: both;
+        margin: 30px 0 30px 0;
+    }
+    /*Section 1 : Champ de Recherche */
     #recherche > form > input
     {
         width: 50%;
@@ -276,15 +283,59 @@ footer a:link
         font-size: 1.1em;
         padding-left: 0.4em;
     }
+    /*Section 1: Filtres*/
+    /*Section 2.1: Hebergements*/
+    /*Section 2.2: Les Plus Populaires*/
+    /*Section 3: Activites*/
+    /*Footer*/
 }
 /*Responsive Design : Telephone Portable*/
 @media screen and (max-width: 767px)
 {
+    /*Elements principals de la page*/
+    body
+    {
+        background-color: white;
+        font-family: "Raleway", sans-serif;
+        /* overflow-x: hidden; */
+        margin: 0px;
+        color: black;
+    }
+    li
+    {
+        list-style: none;
+    }
+    a
+    {
+        color: black;
+        text-decoration: none;
+    }
+    a:visited
+    {
+        color: black;
+    }
+    header, main
+    {
+        padding: 0px 25px 0 25px; 
+        width: auto;
+    }
+    *:focus
+    {
+        outline: none;
+    }
+    /*Header*/
     /* nav
     {
         flex-wrap: wrap-reverse;
     }
      */
+    /*Section 1 : Text Bloc*/
+    .text_bloc
+    {
+        clear: both;
+        margin: 30px 0 30px 0;
+    }
+    /*Section 1 : Champ de Recherche */
     #recherche > form > input
     {
         width: 50%;
@@ -305,4 +356,9 @@ footer a:link
         font-size: 1.1em;
         padding-left: 0.4em;
     }
+    /*Section 1: Filtres*/
+    /*Section 2.1: Hebergements*/
+    /*Section 2.2: Les Plus Populaires*/
+    /*Section 3: Activites*/
+    /*Footer*/
 }
