@@ -202,7 +202,7 @@ nav > .nav_list > .inscription > a
     transition: box-shadow 0.4s;
     text-decoration: none;
 }
-.carte:hover {
+.carte_hebergements:hover {
     transform: scale(1.01);
 }
 .hebergements_element img 
