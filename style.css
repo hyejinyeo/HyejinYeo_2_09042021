@@ -479,6 +479,13 @@ footer a:link
         border-top-right-radius: 15px;
     }
     /*Section 3: Activites*/
+    .activites_element img
+    {
+        height: 100%;
+        width: 100%;
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
     /*Footer*/
     footer
     {
