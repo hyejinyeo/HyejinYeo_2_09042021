@@ -486,12 +486,26 @@ footer a:link
     {
         background-color: #F2F2F2;
     }
-    .aside_element img
+    .aside h2
+    {
+        padding: 0 0 0  20px;
+    }
+    .carte_aside
     {
         height: 100%;
         width: 100%;
+        margin: 20px;
+        padding: 5px;
+        background-color: white;
+        border-radius: 15px;
+    }
+    .aside_element img
+    {
+        height: 100%;
+        width: 30%;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
+        float: left;
     }
     /*Section 3: Activites*/
     .activites_element img
