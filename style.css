@@ -327,9 +327,31 @@ footer a:link
         outline: none;
     }
     /*Header*/
+    .wrap
+    {
+        display: flex;
+        flex-direction: column;
+    }
     .logo
     {
         padding: 20px 0 0 20px;
+    }
+    .nav_list > ul
+    {
+        padding: 15px 0 15px 0;
+        margin: 20px 0 0 0;
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        border-bottom: 2px solid #D9D9D9;
+    }
+    /*Effet Active to be added*/
+    .inscription
+    {
+        padding: 20px 0 0 0;
+        position: absolute;
+        right: 20px;
+        top: 15px;
     }
     nav > .nav_list > .inscription > a
     {
