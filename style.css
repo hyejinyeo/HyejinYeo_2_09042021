@@ -371,7 +371,7 @@ footer a:link
     /*Section 1: Champ de Recherche */
     .recherche_bloc
     {
-        margin: 10px;
+        margin: 20px;
     }
     .icon_gps
     {
@@ -383,7 +383,6 @@ footer a:link
         font-size: 1.1em;
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
-        margin-left: 10px;
         float: left;
     }
     #recherche > form > input
@@ -421,9 +420,9 @@ footer a:link
         padding-left: 0.5em;
     }
     /*Section 1: Filtres*/
-    #recherche h2
+    .text_filtres
     {
-        float: left;
+        margin-left: 20px;
     }
     .filtres
     {
@@ -437,7 +436,7 @@ footer a:link
         background-color: white;
         float: left;
         padding: 0 20px 0 0;
-        margin: 0 20px 0 20px;
+        margin: 0 5px 20px 20px;
     }
     .filtres:hover
     {
@@ -464,6 +463,7 @@ footer a:link
     .info_message
     {
         clear: both;
+        margin: 30px 20px 30px 20px;
     }
     .icon_info
     {
@@ -481,8 +481,7 @@ footer a:link
     }
     .info_message > p
     {
-        font-size: 0.75em;
-        line-height: 35px;
+        font-size: 0.9em;
     }
     /*Section 2: Article & Aside*/
     .section_2
