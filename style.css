@@ -331,11 +331,6 @@ footer a:link
     {
         padding: 20px 0 0 20px;
     }
-    /* nav
-    {
-        flex-wrap: wrap-reverse;
-    }
-    */
     nav > .nav_list > .inscription > a
     {
         color: #0065FC;
