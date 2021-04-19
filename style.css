@@ -342,10 +342,25 @@ footer a:link
         margin: 20px 0 0 0;
         display: flex;
         justify-content: space-around;
+        align-items: center;
         width: 100%;
+    }
+    .nav_list > ul > li
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 50%;
+        text-align: center;
+        padding: 15px 0 15px 0;
         border-bottom: 2px solid #D9D9D9;
     }
-    /*Effet Active to be added*/
+    .nav_list > ul > li:active
+    {
+        color: #0065FC;
+        border-bottom: 2px solid #0065FC;
+    }
+    /*Effet Active : Font color doesn't change*/
     .inscription
     {
         padding: 20px 0 0 0;
