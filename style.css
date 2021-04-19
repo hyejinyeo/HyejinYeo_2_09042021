@@ -569,6 +569,7 @@ footer a:link
     /*Section 2.2: Les Plus Populaires*/
     .aside
     {
+        width: auto;
         background-color: #F2F2F2;
     }
     .aside h2
@@ -627,22 +628,23 @@ footer a:link
         height: 180px;
         width: auto;
         margin: 20px;
-        padding: 5px;
+        padding: 0 0 5px 0;
         background-color: white;
         border-radius: 15px;
         box-shadow: 0 0 10px 2px #D9D9D9;
     }
     .activites_element img
     {
-        height: 130px;
+        height: 135px;
         width: 100%;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
-    .activites_element h3
+    .activites_element > h3
     {
         font-size: 1em;
-        margin-left: 10px;
+        font-weight: bold;
+        margin: 13px 0 0 15px;
     }
     /*Footer*/
     footer
