@@ -531,8 +531,9 @@ footer a:link
     }
     .aside h2
     {
-        padding: 0 0 0  20px;
+        padding: 0 20px 0  20px;
     }
+
     .carte_aside
     {
         display: flex;
@@ -544,6 +545,7 @@ footer a:link
         padding: 5px;
         background-color: white;
         border-radius: 15px;
+        box-shadow: 0 0 10px 2px #D9D9D9;
     }
     .aside_element img
     {
@@ -564,6 +566,10 @@ footer a:link
     {
         font-size: 0.9em;
         margin: 5px 0 10px 0;
+    }
+    .aside_element > .icon_star
+    {
+        margin-top: 40px;
     }
     /*Section 3: Activites*/
     .activites_element img
