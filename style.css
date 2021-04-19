@@ -512,6 +512,14 @@ footer a:link
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
+    .icon_star > .full
+    {
+        color: #0065FC;
+    }
+    .icon_star > .simple
+    {
+        color: #D9D9D9;
+    }
     /*Section 2.2: Les Plus Populaires*/
     .aside
     {
