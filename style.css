@@ -511,7 +511,7 @@ footer a:link
         flex-direction: column;
         justify-content: top;
         height: 190px;
-        width: 320px;
+        width: auto;
         margin: 20px;
         padding: 5px;
         background-color: white;
@@ -521,7 +521,7 @@ footer a:link
     .hebergements_element img 
     {
         height: 115px;
-        width: 320px;
+        width: 100%;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
@@ -582,7 +582,7 @@ footer a:link
         flex-direction: column;
         justify-content: space-around;
         height: 140px;
-        width: 320px;
+        width: auto;
         margin: 20px;
         padding: 5px;
         background-color: white;
@@ -625,7 +625,7 @@ footer a:link
         flex-direction: column;
         justify-content: top;
         height: 180px;
-        width: 320px;
+        width: auto;
         margin: 20px;
         padding: 5px;
         background-color: white;
