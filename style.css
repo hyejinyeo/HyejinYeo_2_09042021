@@ -550,7 +550,10 @@ footer a:link
         margin-left: 20px;
         font-weight: bold;
     }
-
+    .text_bold
+    {
+        font-weight: bold;
+    }
     .icon_star
     {
         font-size: 0.7em;
