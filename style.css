@@ -204,18 +204,24 @@
         font-size: 1em;
         line-height: 35px;
     }
+/*Section 2.1 + 2.2*/
+    .section_2
+    {
+        overflow: hidden;
+    }
 /*Section 2.1: Hebergements*/
     .hebergements_container
     {
         background-color: #F2F2F2;
         border-radius: 15px;  
         width: 65%;
-        padding-bottom: 20px;
+        height: auto;
+        padding-bottom: 10px;
+        float: left;
     }
     .hebergements_container > h2
     {
-        padding: 20px 20px 0  20px;
-        margin-top: 30px;
+        padding: 20px 20px 0 20px;
     }
     .groupe_carte_hebergements
     {
@@ -231,7 +237,7 @@
         justify-content: top;
         height: 190px;
         width: 220px;
-        margin: 20px;
+        margin: 15px;
         padding: 5px;
         background-color: white;
         border-radius: 15px;
@@ -286,23 +292,29 @@
     }
 
 /*Section 2.2: Les Plus Populaires*/
+    aside
+    {
+        float: right;
+    }
     .aside
     {
-        width: 30%;
+        flex-basis: auto;
+        width: 32%;
+        height: auto;
         background-color: #F2F2F2;
         border-radius: 15px;
-        padding-bottom: 20px;
+        padding-bottom: 10px;
     }
     .aside h2
     {
-        padding: 20px 20px 0  20px;
+        padding: 20px 20px 0 20px;
     }
     .carte_aside
     {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 140px;
+        height: auto;
         width: auto;
         margin: 20px;
         padding: 5px;
@@ -332,7 +344,7 @@
     }
     .aside_element > .icon_star
     {
-        margin-top: 40px;
+        vertical-align: baseline;
     }
 /*Section 3: Activites*/
     .activites_container
