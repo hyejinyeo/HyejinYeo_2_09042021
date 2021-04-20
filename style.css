@@ -345,6 +345,9 @@
     {
         vertical-align: baseline;
     }
+    .carte_aside:hover {
+        transform: scale(1.01);
+    }
 /*Section 3: Activites*/
     .activites_container
     {
