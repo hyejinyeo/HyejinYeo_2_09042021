@@ -1,5 +1,5 @@
 /*Elements principals de la page*/
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 992px){
 body
 {
     background-color: white;
@@ -254,7 +254,7 @@ footer a:link
 }
 }
 /*Responsive Design : Tablette*/
-@media screen and (min-width: 768px) and (max-width: 1023px)
+@media screen and (min-width: 768px) and (max-width: 991px)
 {
     /*Section 1: Text Bloc*/
     .text_bloc
