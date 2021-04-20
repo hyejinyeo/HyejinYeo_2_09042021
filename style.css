@@ -545,8 +545,6 @@ footer a:link
     {
         color: #D9D9D9;
     }
-
-
     /*Section 2.2: Les Plus Populaires*/
     .aside
      {
@@ -596,10 +594,21 @@ footer a:link
          margin-top: 40px;
      }
     /*Section 3: Activites*/
+    .activites_container
+    {
+        width: auto;
+    }
     .activites_container > h2
     {
         padding: 0 20px 10px 20px;
         margin-top: 30px;
+    }
+    .groupe_carte_activites
+    {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 100%;
     }
     .carte_activites
     {
@@ -607,7 +616,7 @@ footer a:link
         flex-direction: column;
         justify-content: top;
         height: 180px;
-        width: auto;
+        width: 42%;
         margin: 20px 20px 25px 20px;
         padding: 0 0 5px 0;
         background-color: white;
