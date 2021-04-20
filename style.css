@@ -207,14 +207,14 @@
 /*Section 2.1 + 2.2*/
     .section_2
     {
-        overflow: hidden;
+        display: flex;
     }
 /*Section 2.1: Hebergements*/
     .hebergements_container
     {
         background-color: #F2F2F2;
         border-radius: 15px;  
-        width: 65%;
+        max-width: 95%;
         height: auto;
         padding-bottom: 10px;
         float: left;
@@ -298,8 +298,7 @@
     }
     .aside
     {
-        flex-basis: auto;
-        width: 32%;
+        width: 680px;
         height: auto;
         background-color: #F2F2F2;
         border-radius: 15px;
