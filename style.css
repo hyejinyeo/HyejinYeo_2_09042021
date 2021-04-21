@@ -1436,15 +1436,21 @@
     {
         padding: 0 20px 10px 20px;
         margin-top: 30px;
+        font-size: 1.4em;
+        font-weight: bold;
     }
-    .carte_activites
+    .groupe_carte_activites
+    {
+        margin: 0 20px 35px 20px;
+    }
+    .carte_activites_single, .carte_activites_2, .carte_activites_3, .carte_activites_5, .carte_activites_6
     {
         display: flex;
         flex-direction: column;
         justify-content: top;
         height: 180px;
         width: auto;
-        margin: 20px 20px 25px 20px;
+        margin: 20px 0 25px 0;
         padding: 0 0 5px 0;
         background-color: white;
         border-radius: 15px;
@@ -1459,7 +1465,7 @@
     }
     .activites_element > h3
     {
-        font-size: 1em;
+        font-size: 0.9em;
         font-weight: bold;
         margin: 13px 0 0 15px;
     }
