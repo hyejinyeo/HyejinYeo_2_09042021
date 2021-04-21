@@ -1340,8 +1340,8 @@
     {
         height: 115px;
         width: 100%;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
     .hebergements_container > h2
     {
@@ -1354,13 +1354,13 @@
     }
     .hebergements_element > .details > h3
     {
-        font-size: 1em;
-        font-style: bold;
+        font-size: 0.9em;
+        font-style: bolder;
         margin: 5px 0 5px 0;
     }
     .hebergements_element > .details > p
     {
-        font-size: 0.9em;
+        font-size: 0.8em;
         margin: 5px 0 5px 0;
     }
     .hebergements_container > p
@@ -1399,7 +1399,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        height: 140px;
+        height: 130px;
         width: auto;
         margin: 20px;
         padding: 5px;
@@ -1409,22 +1409,22 @@
     }
     .aside_element img
     {
-        height: 140px;
-        width: 42%;
+        height: 130px;
+        width: 44%;
         border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-        margin-right: 15px;
+        border-bottom-left-radius: 10px;
+        margin-right: 20px;
         float: left;
     }
     .aside_element > h3
     {
-        font-size: 1em;
-        font-style: bold;
-        margin: 10px 0 10px 0;
+        font-size: 0.9em;
+        font-style: bolder;
+        margin: 8px 0 10px 0;
     }
     .aside_element > p
     {
-        font-size: 0.9em;
+        font-size: 0.8em;
         margin: 5px 0 10px 0;
     }
     .aside_element > .icon_star
