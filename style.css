@@ -301,7 +301,7 @@
     }
     .aside
     {
-        width: 680px;
+        width: auto;
         height: auto;
         background-color: #F2F2F2;
         border-radius: 15px;
@@ -318,7 +318,7 @@
         flex-direction: column;
         justify-content: space-around;
         height: auto;
-        width: auto;
+        width: 330px;
         margin: 20px;
         padding: 5px;
         background-color: white;
