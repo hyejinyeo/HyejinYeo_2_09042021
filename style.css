@@ -982,7 +982,7 @@
     }
     .activites_column_single
     {
-        flex-basis: 23%;
+        flex-basis: 25%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -1082,7 +1082,7 @@
     {
         font-size: 0.8em;
         font-weight: bold;
-        margin: 5px 0 0 8px;
+        margin: 5px 0 0 7px;
     }
     .carte_activites_single:hover 
     {
