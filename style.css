@@ -348,6 +348,7 @@
     .aside_element > .icon_star
     {
         vertical-align: baseline;
+        padding-top: 30px;
     }
     .carte_aside:hover {
         transform: scale(1.01);
