@@ -802,11 +802,15 @@
     .hebergements_container
     {
         width: auto;
+        background-color: #F2F2F2;
+        border-radius: 15px;
+        margin: 10px;  
     }
     .hebergements_container > h2
     {
-        padding: 0 20px 0  20px;
-        margin-top: 30px;
+        padding: 20px 20px 0 30px;
+        font-size: 1.4em;
+        font-weight: bold;
     }
     .groupe_carte_hebergements
     {
@@ -821,8 +825,8 @@
         flex-direction: column;
         justify-content: top;
         height: 190px;
-        width: 42%;
-        margin: 20px;
+        width: 230px;
+        margin: 10px 0;
         padding: 5px;
         background-color: white;
         border-radius: 15px;
@@ -832,8 +836,8 @@
     {
         height: 115px;
         width: 100%;
-        border-top-left-radius: 15px;
-        border-top-right-radius: 15px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
     .details
     {
@@ -841,19 +845,20 @@
     }
     .hebergements_element > .details > h3
     {
-        font-size: 1em;
-        font-style: bold;
+        font-size: 0.9em;
+        font-weight: bolder;
         margin: 5px 0 5px 0;
     }
     .hebergements_element > .details > p
     {
-        font-size: 0.9em;
+        font-size: 0.8em;
         margin: 5px 0 5px 0;
         clear: both;
     }
     .hebergements_container > p
     {
         margin-left: 20px;
+        padding-bottom: 20px;
         font-weight: bold;
     }
     .text_bold
@@ -872,13 +877,16 @@
     {
         color: #D9D9D9;
     }
+    .carte_hebergements:hover {
+        transform: scale(1.01);
+    }
     /*Section 2.2: Les Plus Populaires*/
     .aside
      {
-         width: auto;
-         background-color: #F2F2F2;
-         border-radius: 15px;
-         margin: 10px;
+        width: auto;
+        background-color: #F2F2F2;
+        border-radius: 15px;
+        margin: 10px;
      }
      .aside h2
      {
@@ -893,7 +901,7 @@
         justify-content: space-around;
         height: 140px;
         width: auto;
-        margin: 35px;
+        margin: 20px 35px;
         padding: 5px;
         background-color: white;
         border-radius: 15px;
@@ -902,9 +910,9 @@
      .aside_element img
      {
          height: 140px;
-         width: 42%;
-         border-top-left-radius: 15px;
-         border-bottom-left-radius: 15px;
+         width: 40%;
+         border-top-left-radius: 10px;
+         border-bottom-left-radius: 10px;
          margin-right: 15px;
          float: left;
      }
