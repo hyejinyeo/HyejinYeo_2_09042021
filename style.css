@@ -608,7 +608,7 @@
     }
     .logo
     {
-        padding: 20px 0 0 20px;
+        padding: 30px 30px 20px 30px;
     }
     .nav_list > ul
     {
@@ -625,8 +625,9 @@
         justify-content: space-around;
         align-items: center;
         width: 50%;
+        font-size: 1em;
         text-align: center;
-        padding: 15px 0 15px 0;
+        padding: 0 0 20px 0;
         border-bottom: 2px solid #D9D9D9;
     }
     .nav_list > ul > li:active
@@ -639,11 +640,12 @@
     {
         padding: 20px 0 0 0;
         position: absolute;
-        right: 20px;
-        top: 15px;
+        right: 30px;
+        top: 30px;
     }
     nav > .nav_list > .inscription > a
     {
+        font-size: 1em;
         color: #0065FC;
         font-weight: bold;
     }
