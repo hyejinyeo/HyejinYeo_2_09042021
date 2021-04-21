@@ -117,7 +117,7 @@
     }
     .text_bloc h2
     {
-        font-size: 1.5em;
+        font-size: 1.4em;
     }
     .text_bloc p
     {
@@ -170,6 +170,7 @@
         line-height: 50px;
         text-align: center;
         font-size: 1em;
+        font-weight: normal;
         padding-left: 0.85em;
     }
     .icon_search
@@ -180,6 +181,11 @@
     #recherche h2
     {
         float: left;
+    }
+    .text_filtres
+    {
+        font-size: 1.1em;
+        font-weight: bold;
     }
     .filtres
     {
@@ -220,29 +226,30 @@
     .info_message
     {
         clear: both;
-        margin-top: 40px;
+        margin-top: 50px;
         margin-bottom: 40px;
         display: flex;
+        align-items: center;
     }
     .icon_info
     {
         color: #0065FC;
         background-color: white;
-        height: 35px;
-        width: 35px;
-        line-height: 35px;
+        height: 25px;
+        width: 25px;
+        line-height: 25px;
         text-align: center;
-        font-size: 0.8em;
+        font-size: 0.7em;
         border-radius: 50%; 
         border: #D9D9D9 solid 2px;
         float: left;
-        margin: 10px 10px 0 0;
+        margin: 25px 10px 0 0;
     }
     .info_message > p
     {
         font-size: 1em;
-        line-height: 35px;
-        margin: 10px 0 0 0;
+        line-height: 25px;
+        margin: 25px 0 0 0;
     }
 /*Section 2.1 + 2.2*/
     .section_2
