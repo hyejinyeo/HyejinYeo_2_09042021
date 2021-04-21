@@ -414,10 +414,12 @@
     {
         display: flex;
         justify-content: flex-start;
+        margin: auto;
     }
     .footer_column
     {
-        margin-right: 150px;
+        padding: 10px 130px 10px 20px;
+        margin: auto;
     }
     footer h1
     {
