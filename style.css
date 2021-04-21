@@ -21,7 +21,7 @@
     }
     header, main
     {
-        padding: 0px 50px 0 50px; 
+        padding: 0px 60px; 
         width: auto;
     }
     *:focus
@@ -29,7 +29,7 @@
         outline: none;
     }
 /*Header*/
-    nav
+    /* nav
     {
         display: flex;
     }
@@ -46,14 +46,14 @@
         display: flex;
         align-items: center;
         position: absolute;
-        right: 10px;
+        right: 20px;
     }
     nav li
     {
         list-style: none;
         display: flex;
         float: left;
-        }
+    }
     nav a
     {
         padding: 60px 40px 0px 40px;
@@ -69,6 +69,44 @@
         font-weight: bold;
         display: flex;
         padding: 60px 40px 0px 40px;
+    } */
+    .wrap
+    {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 50px 0 20px 0;
+    }
+    .nav_list
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nav_list > ul
+    {
+        display: flex;
+        text-align: center;
+        padding: 0;
+    }
+    nav li
+    {
+        list-style: none;
+        display: inline-block;
+    }
+    nav li.on
+    {
+        color: #0065FC;
+    }
+    .nav_list a
+    {
+        padding: 50px 35px 0 35px;
+    }
+    .inscription > a
+    {
+        color: #0065FC;
+        font-weight: bold;
     }
 /*Section 1: Text Bloc*/
     .text_bloc
