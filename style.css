@@ -201,11 +201,12 @@
     }
     .filtres:hover
     {
+        color: #0065FC;
         background-color: #DEEBFF;
     }
-    .filtres > a:hover
+    .filtres:hover a
     {
-        color: #0065FC;
+        color: inherit;
     }
     .icon_filtres
     {
@@ -762,11 +763,12 @@
     }
     .filtres:hover
     {
+        color: #0065FC;
         background-color: #DEEBFF;
     }
-    .filtres > a:hover
+    .filtres:hover a
     {
-        color: #0065FC;
+        color: inherit;
     }
     .icon_filtres
     {
@@ -1309,11 +1311,12 @@
     }
     .filtres:hover
     {
+        color: #0065FC;
         background-color: #DEEBFF;
     }
-    .filtres > a:hover
+    .filtres:hover a
     {
-        color: #0065FC;
+        color: inherit;
     }
     .icon_filtres
     {
