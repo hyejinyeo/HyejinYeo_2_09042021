@@ -153,13 +153,10 @@
         padding: 10px;
         border: 1px solid #F2F2F2;  
     }
-    #recherche > form > .button
+    #recherche > form > button
     {
         width: 130px;
         height: 50px;
-        color: white;
-        font-size: 1.1em;
-        font-weight: bold;
         background-color: #0065FC;
         border: none;
         border-top-right-radius: 15px;
@@ -173,7 +170,6 @@
         text-align: center;
         font-size: 1em;
         font-weight: normal;
-        padding-left: 0.85em;
     }
     .icon_search
     {
@@ -718,13 +714,10 @@
         padding: 10px;
         border: 1px solid #F2F2F2;  
     }
-    #recherche > form > .button
+    #recherche > form > button
     {
         width: 130px;
         height: 50px;
-        color: white;
-        font-size: 1.1em;
-        font-weight: bold;
         background-color: #0065FC;
         border: none;
         border-top-right-radius: 15px;
@@ -738,7 +731,6 @@
         text-align: center;
         font-size: 1em;
         font-weight: normal;
-        padding-left: 0.85em;
     }
     .icon_search
     {
@@ -1270,13 +1262,10 @@
         padding: 10px;
         border: 1px solid #F2F2F2;  
     }
-    #recherche > form > .button
+    #recherche > form > button
     {
         width: 50px;
         height: 50px;
-        color: white;
-        font-size: 1.1em;
-        font-weight: bold;
         background-color: #0065FC;
         border: none;
         border-top-right-radius: 15px;
@@ -1293,7 +1282,6 @@
         line-height: 50px;
         text-align: center;
         font-size: 1em;
-        padding-left: 0.85em;
     }
     /*Section 1: Filtres*/
     .filtres_bloc
