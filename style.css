@@ -637,30 +637,31 @@
     }
     .nav_list > ul
     {
-        padding: 15px 0 15px 0;
-        margin: 20px 0 0 0;
+        font-size: 1em;
+        text-align: center;
         display: flex;
         justify-content: space-around;
         align-items: center;
         width: 100%;
+        margin: 10px 0;
+        padding: 0;
     }
     .nav_list > ul > li
     {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
         width: 50%;
-        font-size: 1em;
-        text-align: center;
-        padding: 0 0 20px 0;
-        border-bottom: 2px solid #D9D9D9;
+        margin: 0;
+        padding-bottom: 20px;
+        border-bottom: 2.5px solid #F2F2F2;
     }
-    .nav_list > ul > li:active
+    .nav_list > ul > li:hover
     {
         color: #0065FC;
-        border-bottom: 2px solid #0065FC;
+        border-bottom: 2.5px solid #0065FC;
     }
-    /*Effet Active : Font color doesn't change*/
+    li:hover a 
+    {
+        color: inherit;
+    }
     .inscription
     {
         padding: 20px 0 0 0;
