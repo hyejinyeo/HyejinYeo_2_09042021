@@ -284,6 +284,7 @@
     .aside_element img {
         height: 130px;
         width: 45%;
+        object-fit: cover;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         margin-right: 15px;
@@ -755,6 +756,7 @@
     .aside_element img {
         height: 140px;
         width: 40%;
+        object-fit: cover;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         margin-right: 15px;
@@ -1201,7 +1203,8 @@
     .aside_element img {
         height: 130px;
         width: 44%;
-        border-top-left-radius: 15px;
+        object-fit: cover;
+        border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         margin-right: 20px;
         float: left;
