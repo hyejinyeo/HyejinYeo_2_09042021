@@ -100,15 +100,14 @@
         border-bottom-right-radius: 15px;
         cursor: pointer;
     }
-    .button_text {
+    button > .btn_text {
         color: white;
-        display: table-cell;
         line-height: 50px;
         text-align: center;
-        font-size: 1em;
+        font-size: 1.1em;
         font-weight: normal;
     }
-    .icon_search {
+    button > .btn_icon {
         display: none;
     }
     /*Section 1: Filtres*/
@@ -578,15 +577,14 @@
         border-bottom-right-radius: 15px;
         cursor: pointer;
     }
-    .button_text {
+    button > .btn_text {
         color: white;
-        display: table-cell;
         line-height: 50px;
         text-align: center;
-        font-size: 1em;
+        font-size: 1.1em;
         font-weight: normal;
     }
-    .icon_search {
+    button > .btn_icon {
         display: none;
     }
     /*Section 1: Filtres*/
@@ -1052,15 +1050,14 @@
         border-bottom-right-radius: 15px;
         cursor: pointer;
     }
-    .button_text {
+    button > .btn_text {
         display: none;
     }
-    .icon_search {
+    button > .btn_icon {
         color: white;
-        display:table-cell;
         line-height: 50px;
         text-align: center;
-        font-size: 1em;
+        font-size: 1.1em;
     }
     /*Section 1: Filtres*/
     .filtres_bloc {
