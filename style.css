@@ -1,140 +1,79 @@
 /*Responsive Design : Ordinateur*/
-@media screen and (min-width: 992px)
-{
-/*Elements principals de la page*/
-    body
-    {
+@media screen and (min-width: 992px) {
+    /*Elements principals de la page*/
+    body {
         background-color: white;
         font-family: "Raleway", sans-serif;
-        overflow-x: hidden;
         margin: 0px;
         color: black;
     }
-    a
-    {
+    a {
         color: black;
         text-decoration: none;
     }
-    a:visited
-    {
+    a:visited {
         color: black;
     }
-    header, main
-    {
+    header, main {
         padding: 0px 60px; 
         width: auto;
     }
-    *:focus
-    {
+    *:focus {
         outline: none;
     }
-/*Header*/
-    /* nav
-    {
-        display: flex;
-    }
-    .logo
-    {
-        display: flex;
-    }
-    .logo > a
-    {
-        padding: 60px 0 0 0;
-    }
-    .nav_list
-    {
-        display: flex;
-        align-items: center;
-        position: absolute;
-        right: 20px;
-    }
-    nav li
-    {
-        list-style: none;
-        display: flex;
-        float: left;
-    }
-    nav a
-    {
-        padding: 60px 40px 0px 40px;
-    }
-    nav li a:hover
-    {
-        color: #0065FC;
-        border-top: #0065FC 2px solid; 
-    }
-    nav > .nav_list > .inscription > a
-    {
-        color: #0065FC;
-        font-weight: bold;
-        display: flex;
-        padding: 60px 40px 0px 40px;
-    } */
-    .wrap
-    {
+    /*Header*/
+    .wrap {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-between;
         margin: 50px 0 20px 0;
     }
-    .nav_list
-    {
+    .nav_list {
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-    .nav_list > ul
-    {
+    .nav_list > ul {
         display: flex;
         text-align: center;
         padding: 0;
     }
-    nav li
-    {
+    nav li {
         list-style: none;
         display: inline-block;
     }
-    nav  ul  a:hover
-    {
+    nav  ul  a:hover {
         color: #0065FC;
         border-top: 2px solid #0065FC;
     }
-    .nav_list a
-    {
+    .nav_list a {
         padding: 50px 35px 0 35px;
     }
-    .inscription > a
-    {
+    .inscription > a {
         color: #0065FC;
         font-weight: bold;
     }
-/*Section 1: Text Bloc*/
-    .text_bloc
-    {
+    /*Section 1: Text Bloc*/
+    .text_bloc {
         clear: both;
-        margin-top: 20px;
-        margin-bottom: 20px;
+        margin: 20px 0;
     }
-    .text_bloc h2
-    {
-        font-size: 1.4em;
+    .text_bloc h2 {
+        font-size: 1.4em; 
         font-weight: bold;
     }
-    .text_bloc p
-    {
+    .text_bloc p {
         font-size: 1em;
         clear: both;
         margin-bottom: 30px;
     }
-/*Section 1 : Champ de Recherche */
-    .recherche_bloc
-    {
+    /*Section 1: Champ de Recherche*/
+    .recherche_bloc {
         margin: 20px 0 30px 0;
         display: flex;
     }
-    .icon_gps
-    {
+    .icon_gps {
         background-color: #F2F2F2;
         height: 50px;
         width: 50px;
@@ -144,8 +83,7 @@
         border-top-left-radius: 15px;
         border-bottom-left-radius: 15px;
     }
-    #recherche > form > input
-    {
+    #recherche > form > input {
         font-size:1.1em;
         font-weight: bold;
         width: 250px;
@@ -153,17 +91,16 @@
         padding: 10px;
         border: 1px solid #F2F2F2;  
     }
-    #recherche > form > button
-    {
+    #recherche > form > button {
         width: 130px;
         height: 50px;
         background-color: #0065FC;
         border: none;
         border-top-right-radius: 15px;
         border-bottom-right-radius: 15px;
+        cursor: pointer;
     }
-    .button_text
-    {
+    .button_text {
         color: white;
         display: table-cell;
         line-height: 50px;
@@ -171,25 +108,21 @@
         font-size: 1em;
         font-weight: normal;
     }
-    .icon_search
-    {
+    .icon_search {
         display: none;
     }
-/*Section 1 : Filtres*/
-    #recherche h2
-    {
+    /*Section 1: Filtres*/
+    #recherche h2 {
         float: left;
     }
-    .filtres_bloc > h2
-    {
+    .filtres_bloc > h2 {
         font-size: 1.1em;
         font-weight: bold;
     }
-    .filtres
-    {
+    .filtres {
         font-size: 1em;
         font-weight: bold;
-        line-height: 52px; /*Vertical align: center*/
+        line-height: 52px;
         box-sizing: content-box;
         height: 52px;
         border-radius: 30px;
@@ -199,17 +132,14 @@
         padding: 0 20px 0 0;
         margin: 0 20px 20px 20px;
     }
-    .filtres:hover
-    {
+    .filtres:hover {
         color: #0065FC;
         background-color: #DEEBFF;
     }
-    .filtres:hover a
-    {
+    .filtres:hover a {
         color: inherit;
     }
-    .icon_filtres
-    {
+    .icon_filtres {
         color: #0065FC;
         background-color: #DEEBFF;
         height: 52px;
@@ -221,17 +151,14 @@
         margin-right: 10px; /*Espace entre icon et text*/
         float: left;
     }
-/*Section 1: Info*/
-    .info_message
-    {
+    /*Section 1: Info*/
+    .info_message {
         clear: both;
-        margin-top: 50px;
-        margin-bottom: 40px;
+        margin: 40px 0;
         display: flex;
         align-items: center;
     }
-    .icon_info
-    {
+    .icon_info {
         color: #0065FC;
         background-color: white;
         height: 25px;
@@ -244,20 +171,17 @@
         float: left;
         margin: 25px 10px 0 0;
     }
-    .info_message > p
-    {
+    .info_message > p {
         font-size: 1em;
         line-height: 25px;
         margin: 25px 0 0 0;
     }
-/*Section 2.1 + 2.2*/
-    .section_2
-    {
+    /*Section 2.1 Hebergements + 2.2 Les Plus Populaires */
+    .section_2 {
         display: flex;
     }
-/*Section 2.1: Hebergements*/
-    .hebergements_container
-    {
+    /*Section 2.1: Hebergements*/
+    .hebergements_container {
         background-color: #F2F2F2;
         border-radius: 15px;  
         max-width: 96%;
@@ -265,21 +189,18 @@
         padding-bottom: 10px;
         float: left;
     }
-    .hebergements_container > h2
-    {
+    .hebergements_container > h2 {
         padding: 20px 20px 0 20px;
         font-size: 1.4em;
         font-weight: bold;
     }
-    .groupe_carte_hebergements
-    {
+    .groupe_carte_hebergements {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         width: 100%;
     }
-    .carte_hebergements
-    {
+    .carte_hebergements {
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -291,78 +212,63 @@
         border-radius: 15px;
         box-shadow: 3px 3px 15px 2px #D9D9D9;
     }
-    .hebergements_element img 
-    {
+    .hebergements_element img {
         height: 115px;
         width: 100%;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
-    .details
-    {
+    .details {
         margin-left: 10px;
     }
-    .hebergements_element > .details > h3
-    {
+    .hebergements_element > .details > h3 {
         font-size: 0.9em;
         font-weight: bolder;
         margin: 5px 0 5px 0;
     }
-    .hebergements_element > .details > p
-    {
+    .hebergements_element > .details > p {
         font-size: 0.8em;
         margin: 5px 0 5px 0;
         clear: both;
     }
-    .hebergements_container > p
-    {
+    .hebergements_container > p {
         margin-left: 20px;
         padding-bottom: 15px;
         font-weight: bold;
     }
-    .text_bold
-    {
+    .text_bold {
         font-weight: bold;
     }
-    .icon_star
-    {
+    .icon_star {
         font-size: 0.7em;
     }
-    .icon_star > .full
-    {
+    .icon_star > .full {
         color: #0065FC;
     }
-    .icon_star > .simple
-    {
+    .icon_star > .simple {
         color: #D9D9D9;
     }
-    .carte_hebergements:hover 
-    {
+    .carte_hebergements:hover {
         transform: scale(1.01);
     }
-
-/*Section 2.2: Les Plus Populaires*/
-    aside
-    {
+    /*Section 2.2: Les Plus Populaires*/
+    aside {
         float: right;
     }
-    .aside
-    {
+    .aside {
         width: auto;
         height: auto;
         background-color: #F2F2F2;
         border-radius: 15px;
         padding-bottom: 10px;
     }
-    .aside h2
-    {
+    .aside h2 {
         padding: 20px 20px 0 20px;
         margin-bottom: 35px;
         font-size: 1.4em;
         font-weight: bold;
     }
-    .carte_aside
-    {
+    .carte_aside {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -374,8 +280,7 @@
         border-radius: 15px;
         box-shadow: 3px 3px 15px 2px #D9D9D9;
     }
-    .aside_element img
-    {
+    .aside_element img {
         height: 130px;
         width: 45%;
         border-top-left-radius: 10px;
@@ -383,49 +288,40 @@
         margin-right: 15px;
         float: left;
     }
-    .aside_element > h3
-    {
+    .aside_element > h3 {
         font-size: 0.9em;
         font-weight: bolder;
         margin: 10px 0 10px 0;
     }
-    .aside_element > p
-    {
+    .aside_element > p {
         font-size: 0.8em;
         margin: 5px 0 10px 0;
     }
-    .aside_element > .icon_star
-    {
-        vertical-align: baseline;
+    .aside_element > .icon_star {
         padding-top: 30px;
     }
-    .carte_aside:hover 
-    {
+    .carte_aside:hover {
         transform: scale(1.01);
     }
-/*Section 3: Activites*/
-    .activites_container
-    {
+    /*Section 3: Activites*/
+    .activites_container {
         width: auto;
         height: 550px;
     }
-    .activites_container > h2
-    {
+    .activites_container > h2 {
         padding: 20px 20px 10px 20px;
         margin: 30px 0;
         font-size: 1.4em;
         font-weight: bold;
     }
-    .groupe_carte_activites
-    {
+    .groupe_carte_activites {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
         align-content: start;
         width: 100%;
     }
-    .activites_column_single
-    {
+    .activites_column_single {
         flex-basis: 23%;
         height: 400px;
         display: flex;
@@ -433,8 +329,7 @@
         padding: 0;
         margin: 0;
     }
-    .carte_activites_single
-    {
+    .carte_activites_single {
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -446,16 +341,14 @@
         border-radius: 15px;
         box-shadow: 3px 3px 15px 2px #D9D9D9;
     }
-    .carte_activites_single > .activites_element > img
-    {
+    .carte_activites_single > .activites_element > img {
         width: 100%;
         height: 370px;
         object-fit: cover;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
     }
-    .activites_column_double
-    {
+    .activites_column_double {
         flex-basis: 23%;
         height: 404px;
         display: flex;
@@ -464,8 +357,7 @@
         padding: 0;
         margin: 0;
     }
-    .carte_activites_2, .carte_activites_5
-    {
+    .carte_activites_2, .carte_activites_5 {
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -477,24 +369,21 @@
         border-radius: 15px;
         box-shadow: 3px 3px 15px 2px #D9D9D9;  
     }
-    .carte_activites_2 > .activites_element > img
-    {
+    .carte_activites_2 > .activites_element > img {
         width: 100%;
         height: 180px;
         object-fit: cover;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px; 
     }
-    .carte_activites_5 > .activites_element > img
-    {
+    .carte_activites_5 > .activites_element > img {
         width: 100%;
         height: 145px;
         object-fit: cover;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px; 
     }
-    .carte_activites_3, .carte_activites_6
-    {
+    .carte_activites_3, .carte_activites_6 {
         display: flex;
         flex-direction: column;
         justify-content: start;
@@ -506,86 +395,71 @@
         border-radius: 15px;
         box-shadow: 3px 3px 15px 2px #D9D9D9;  
     }
-    .carte_activites_3 > .activites_element > img
-    {
+    .carte_activites_3 > .activites_element > img {
         width: 100%;
         height: 120px;
         object-fit: cover;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px; 
     }
-    .carte_activites_6 > .activites_element > img
-    {
+    .carte_activites_6 > .activites_element > img {
         width: 100%;
         height: 155px;
         object-fit: cover;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px; 
     }    
-    .activites_element > h3
-    {
+    .activites_element > h3 {
         font-size: 0.8em;
         font-weight: bold;
         margin: 5px 0 0 8px;
     }
-    .carte_activites_single:hover 
-    {
+    .carte_activites_single:hover {
         transform: scale(1.01);
     }
-    .carte_activites_2:hover
-    {
+    .carte_activites_2:hover {
         transform: scale(1.01);
     }
-    .carte_activites_3:hover
-    {
+    .carte_activites_3:hover {
         transform: scale(1.01);
     }
-    .carte_activites_5:hover
-    {
+    .carte_activites_5:hover {
         transform: scale(1.01);
     }
-    .carte_activites_6:hover
-    {
+    .carte_activites_6:hover {
         transform: scale(1.01);
     }
-/*Footer*/
-    footer
-    {
+    /*Footer*/
+    footer {
         background-color: #F2F2F2;
         width: 100%;
         height: 100%;
         padding: 20px 0 50px 40px;
         margin: 0;
     }
-    .groupe_footer
-    {
+    .groupe_footer {
         display: flex;
         justify-content: start;
         margin: auto;
     }
-    .footer_column
-    {
+    .footer_column {
         padding: 10px 140px 10px 10px;
     }
-    footer h1
-    {
+    footer h1 {
         font-size: 1em;
         font-weight: bold;
         padding: 20px 0 0px 20px;
     }
-    footer ul
-    {
+    footer ul {
         margin: 0;
         padding: 0 0 0 20px;
     }
-    footer li
-    {
+    footer li {
         font-size: 0.9em;
         padding: 10px 0 0 0;
         list-style: none;
     }
 }
-
 
 /*Responsive Design : Tablette*/
 @media screen and (min-width: 768px) and (max-width: 991px)
