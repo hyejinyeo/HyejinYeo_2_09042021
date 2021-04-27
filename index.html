@@ -21,9 +21,9 @@
         <meta name="description" content="Reservia - Trouvez votre hébergement pour des vacances de rêve">
         <meta name="keywords" content="reservia, vacances, hébergements, activités">
         <!--Open Graph data-->
-			<meta property="og:title" content="Reservia" />
-			<meta property="og:type" content="website" />
-			<meta property="og:description" content="Trouver votre hébergement pour des vacances de rêve" />
+            <meta property="og:title" content="Reservia" />
+            <meta property="og:type" content="website" />
+            <meta property="og:description" content="Trouver votre hébergement pour des vacances de rêve" />
 		<!--Twitter Card data-->
 			<meta name="twitter:title" content="Reservia">
 			<meta name="twitter:description" content="Trouver votre hébergement pour des vacances de rêve">
@@ -35,7 +35,7 @@
             <!--Logo Reservia-->
             <div class="logo">
                 <a href="index.html">
-                <img src="images/logo/Reservia.svg" alt="Logo_Reservia">
+                    <img src="images/logo/Reservia.svg" alt="Logo_Reservia">
                 </a>
             </div>
             <!--Navigator et page d'inscription-->
@@ -75,30 +75,54 @@
             <!--Filtre-->
             <div class="filtres_bloc">
                 <h2>Filtres</h2>
-                <div class="filtres">
-                    <div class="icon_filtres">
-                        <i class="fas fa-money-bill-wave"></i>
+                <form>
+                    <div class="filter_container">
+                        <label class="filter-item">
+                            <input type="checkbox" class="chkbox" id="economique">
+                            <span class="filter-btn">
+                                <span class="filter-icon">
+                                    <i class="fas fa-money-bill-wave"></i>
+                                </span>
+                                <span class="filter-txt">
+                                    Économique
+                                </span>
+                            </span>
+                        </label>
+                        <label class="filter-item">
+                            <input type="checkbox" class="chkbox" id="familial">
+                            <span class="filter-btn">
+                                <span class="filter-icon">
+                                    <i class="fas fa-child"></i>
+                                </span>
+                                <span class="filter-txt">
+                                    Familial
+                                </span>
+                            </span>
+                        </label>
+                        <label class="filter-item">
+                            <input type="checkbox" class="chkbox" id="romantique">
+                            <span class="filter-btn">
+                                <span class="filter-icon">
+                                    <i class="fas fa-heart"></i>
+                                </span>
+                                <span class="filter-txt">
+                                    Romantique
+                                </span>
+                            </span>
+                        </label>
+                        <label class="filter-item">
+                            <input type="checkbox" class="chkbox" id="animaux">
+                            <span class="filter-btn">
+                                <span class="filter-icon">
+                                    <i class="fas fa-dog"></i>
+                                </span>
+                                <span class="filter-txt">
+                                    Animaux Autorisés
+                                </span>
+                            </span>
+                        </label>
                     </div>
-                    <a href=#>Économique</a>
-                </div>
-                <div class="filtres">
-                    <div class="icon_filtres">
-                        <i class="fas fa-child"></i>
-                    </div>
-                    <a href=#>Familial</a>
-                </div>
-                <div class="filtres">
-                    <div class="icon_filtres">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <a href=#>Romantique</a>
-                </div>
-                <div class="filtres">
-                    <div class="icon_filtres">
-                        <i class="fas fa-dog"></i>
-                    </div>
-                    <a href=#>Animaux Autorisés</a>
-                </div>
+                </form>
             </div>
             <!--Info message-->
             <div class="info_message">
