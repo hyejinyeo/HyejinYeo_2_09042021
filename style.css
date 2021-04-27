@@ -139,10 +139,11 @@
         display: block;
         width: 100%;
         box-sizing: content-box;
-        height: 52px;
+        height: 48px;
         border-radius: 30px;
         border: 2px solid #D9D9D9;
         background-color: white;
+        position:relative;
     }
     .filter-icon {
         color: #0065FC;
@@ -155,11 +156,14 @@
         border-radius: 50%;
         margin-right: 10px; /*Espace entre icon et text*/
         float: left;
+        position: absolute;
+        left: -2px;
+        top: -2px;
     }
     .filter-txt {
         text-align: center;
-        line-height: 52px;
-        padding-right: 15px;
+        line-height: 48px;
+        padding: 0 15px 0 60px;
         font-size: 1em;
         font-weight: bold;
         user-select: none; /*Text non-selectable*/
@@ -641,10 +645,11 @@
         display: block;
         width: 100%;
         box-sizing: content-box;
-        height: 52px;
+        height: 48px;
         border-radius: 30px;
         border: 2px solid #D9D9D9;
         background-color: white;
+        position: relative;
     }
     .filter-icon {
         color: #0065FC;
@@ -657,11 +662,14 @@
         border-radius: 50%;
         margin-right: 10px; /*Espace entre icon et text*/
         float: left;
+        position: absolute;
+        left: -2px;
+        top: -2px;
     }
     .filter-txt {
         text-align: center;
-        line-height: 52px;
-        padding-right: 15px;
+        line-height: 48px;
+        padding: 0 15px 0 60px;
         font-size: 1em;
         font-weight: bold;
         user-select: none; /*Text non-selectable*/
@@ -1137,10 +1145,11 @@
         display: block;
         width: 100%;
         box-sizing: content-box;
-        height: 52px;
+        height: 48px;
         border-radius: 30px;
         border: 2px solid #D9D9D9;
         background-color: white;
+        position: relative;
     }
     .filter-icon {
         color: #0065FC;
@@ -1153,11 +1162,14 @@
         border-radius: 50%;
         margin-right: 10px; /*Espace entre icon et text*/
         float: left;
+        position: absolute;
+        left: -2px;
+        top: -2px;
     }
     .filter-txt {
         text-align: center;
-        line-height: 52px;
-        padding-right: 15px;
+        line-height: 48px;
+        padding: 0 15px 0 60px;
         font-size: 0.9em;
         font-weight: bold;
         user-select: none; /*Text non-selectable*/
