@@ -1123,7 +1123,7 @@
         position: relative;
         box-sizing: content-box;
         height: auto;
-        margin: 0 15px 10px 15px;
+        margin: 0 15px 10px 0;
         cursor: pointer;
     }
     .chkbox {
