@@ -45,10 +45,14 @@
     }
     nav  ul  a:hover {
         color: #0065FC;
-        border-top: 2px solid #0065FC;
+        /* border-top: 2px solid #0065FC; */
     }
     .nav_list a {
         padding: 50px 35px 0 35px;
+    }
+    nav ul .active {
+        color: #0065FC;
+        border-top: 2px solid #0065FC;
     }
     .inscription > a {
         color: #0065FC;
@@ -541,10 +545,17 @@
     }
     .nav_list > ul > li:hover {
         color: #0065FC;
-        border-bottom: 2.5px solid #0065FC;
+        /* border-bottom: 2.5px solid #0065FC; */
     }
     li:hover a {
         color: inherit;
+    }
+    nav ul .active_list {
+        border-bottom: 2.5px solid #0065FC;
+    }
+
+    nav ul .active_list a {
+        color: #0065FC;
     }
     .inscription {
         padding: 20px 0 0 0;
@@ -1050,10 +1061,16 @@
     }
     .nav_list > ul > li:hover {
         color: #0065FC;
-        border-bottom: 2.5px solid #0065FC;
+        /* border-bottom: 2.5px solid #0065FC; */
     }
     li:hover a {
         color: inherit;
+    }
+    nav ul .active_list {
+        border-bottom: 2.5px solid #0065FC;
+    }
+    nav ul .active_list a {
+        color: #0065FC;
     }
     .inscription {
         padding: 20px 0 0 0;
