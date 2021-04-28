@@ -736,7 +736,7 @@
         justify-content: start;
         height: 190px;
         width: 290px;
-        margin: 10px 0;
+        margin: 10px 3px;
         padding: 5px;
         background-color: white;
         border-radius: 15px;
@@ -804,7 +804,7 @@
     .carte_aside {
         height: 160px;
         width: 290px;
-        margin: 10px 0;
+        margin: 10px 3px;
         padding: 5px;
         background-color: white;
         border-radius: 15px;
