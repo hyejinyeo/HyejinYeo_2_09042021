@@ -1,4 +1,2 @@
 # OpenClassrooms Projet 2
-OpenClassrooms
-Développeur Web
-Projet 2: Reservia
+OpenClassrooms_Développeur Web_Projet 2: Reservia
