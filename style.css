@@ -1355,6 +1355,7 @@
         width: 100%;
         border-top-left-radius: 15px;
         border-top-right-radius: 15px;
+        object-fit: cover;
     }
     .activites_element > h3 {
         font-size: 0.9em;
