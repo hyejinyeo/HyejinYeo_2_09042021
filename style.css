@@ -243,19 +243,21 @@
             font-size: 1.4em;
             font-weight: bold;
         }
-        .carte_activites_single:hover {
-            transform: scale(1.01);
+        .carte_activites {
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 3px 3px 15px 2px #D9D9D9;
         }
-        .carte_activites_2:hover {
-            transform: scale(1.01);
+        .activites_element img {
+            width: 100%;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            object-fit: cover;
         }
-        .carte_activites_3:hover {
-            transform: scale(1.01);
-        }
-        .carte_activites_5:hover {
-            transform: scale(1.01);
-        }
-        .carte_activites_6:hover {
+        .carte_activites:hover {
             transform: scale(1.01);
         }
         .activites_element > h3 {
@@ -454,25 +456,6 @@
             padding: 0;
             margin: 0;
         }
-        .carte_activites_single {
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
-            height: 100%;
-            width: 100%;
-            margin: 0;
-            padding: 0 0 10px 0;
-            background-color: white;
-            border-radius: 15px;
-            box-shadow: 3px 3px 15px 2px #D9D9D9;
-        }
-        .carte_activites_single > .activites_element > img {
-            width: 100%;
-            height: 370px;
-            object-fit: cover;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-        }
         .activites_column_double {
             flex-basis: 23%;
             height: 404px;
@@ -482,57 +465,31 @@
             padding: 0;
             margin: 0;
         }
-        .carte_activites_2, .carte_activites_5 {
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
+        .carte_activites {
             height: 100%;
             width: 100%;
-            margin-bottom: 35px;
             padding: 0 0 10px 0;
-            background-color: white;
-            border-radius: 15px;
-            box-shadow: 3px 3px 15px 2px #D9D9D9;  
         }
-        .carte_activites_2 > .activites_element > img {
-            width: 100%;
-            height: 180px;
-            object-fit: cover;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px; 
-        }
-        .carte_activites_5 > .activites_element > img {
-            width: 100%;
-            height: 145px;
-            object-fit: cover;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px; 
-        }
-        .carte_activites_3, .carte_activites_6 {
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
-            height: 100%;
-            width: 100%;
+        .single, .trois, .six {
             margin: 0;
-            padding: 0 0 10px 0;
-            background-color: white;
-            border-radius: 15px;
-            box-shadow: 3px 3px 15px 2px #D9D9D9;  
         }
-        .carte_activites_3 > .activites_element > img {
-            width: 100%;
+        .deux, .cinq {
+            margin-bottom: 35px;
+        }
+        .single > .activites_element > img {
+            height: 370px;
+        }
+        .deux > .activites_element > img {
+            height: 180px;
+        }
+        .cinq > .activites_element > img {
+            height: 145px;
+        }
+        .trois > .activites_element > img {
             height: 120px;
-            object-fit: cover;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px; 
         }
-        .carte_activites_6 > .activites_element > img {
-            width: 100%;
+        .six > .activites_element > img {
             height: 155px;
-            object-fit: cover;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px; 
         }    
         .activites_element > h3 {
             margin: 5px 0 0 8px;
@@ -550,7 +507,7 @@
         }
         .footer_column {
             padding: 10px 140px 10px 10px;
-        }    
+        }
 }
 
 /*Responsive Design : Tablette*/
@@ -744,25 +701,6 @@
             padding: 0;
             margin: 0 0 30px 0;
         }
-        .carte_activites_single {
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
-            height: 100%;
-            width: 100%;
-            margin: 0;
-            padding: 0 0 10px 0;
-            background-color: white;
-            border-radius: 15px;
-            box-shadow: 3px 3px 15px 2px #D9D9D9;
-        }
-        .carte_activites_single > .activites_element > img {
-            width: 100%;
-            height: 370px;
-            object-fit: cover;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-        }
         .activites_column_double {
             flex-basis: 48%;
             height: 404px;
@@ -772,57 +710,31 @@
             padding: 0;
             margin: 0 0 30px 0;
         }
-        .carte_activites_2, .carte_activites_5 {
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
+        .carte_activites {
             height: 100%;
             width: 100%;
-            margin-bottom: 35px;
             padding: 0 0 10px 0;
-            background-color: white;
-            border-radius: 15px;
-            box-shadow: 3px 3px 15px 2px #D9D9D9;  
         }
-        .carte_activites_2 > .activites_element > img {
-            width: 100%;
-            height: 180px;
-            object-fit: cover;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px; 
-        }
-        .carte_activites_5 > .activites_element > img {
-            width: 100%;
-            height: 145px;
-            object-fit: cover;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px; 
-        }
-        .carte_activites_3, .carte_activites_6 {
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
-            height: 100%;
-            width: 100%;
+        .single, .trois, .six {
             margin: 0;
-            padding: 0 0 10px 0;
-            background-color: white;
-            border-radius: 15px;
-            box-shadow: 3px 3px 15px 2px #D9D9D9;  
         }
-        .carte_activites_3 > .activites_element > img {
-            width: 100%;
+        .deux, .cinq {
+            margin-bottom: 35px; 
+        }
+        .single > .activites_element > img {
+            height: 370px;
+        }
+        .deux > .activites_element > img {
+            height: 180px;
+        }
+        .cinq > .activites_element > img {
+            height: 145px;
+        }
+        .trois > .activites_element > img {
             height: 120px;
-            object-fit: cover;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px; 
         }
-        .carte_activites_6 > .activites_element > img {
-            width: 100%;
+        .six > .activites_element > img {
             height: 155px;
-            object-fit: cover;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px; 
         }    
         .activites_element > h3 {
             margin: 5px 0 0 7px;
@@ -984,24 +896,14 @@
         .groupe_carte_activites {
             margin: 0 20px 35px 20px;
         }
-        .carte_activites_single, .carte_activites_2, .carte_activites_3, .carte_activites_5, .carte_activites_6 {
-            display: flex;
-            flex-direction: column;
-            justify-content: start;
+        .carte_activites {
             height: 180px;
             width: auto;
             margin: 20px 0 25px 0;
             padding: 0 0 5px 0;
-            background-color: white;
-            border-radius: 15px;
-            box-shadow: 3px 3px 15px 2px #D9D9D9;
         }
         .activites_element img {
             height: 135px;
-            width: 100%;
-            border-top-left-radius: 15px;
-            border-top-right-radius: 15px;
-            object-fit: cover;
         }
         .activites_element > h3 {
             margin: 13px 0 0 15px;
